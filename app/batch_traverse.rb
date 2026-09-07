@@ -1,8 +1,12 @@
 # frozen_string_literal: true
 
+require_relative "evaluator"
+require_relative "reference"
+require_relative "evaluator/findable"
+require_relative "evaluator/eager"
+require_relative "evaluator/metric"
+require_relative "evaluator/cache"
+require_relative "evaluator/concurrent"
 require_relative "fibonacci"
-require_relative "numbers"
-require_relative "metric_scope"
-require_relative "cache_scope"
-require_relative "batch_runner"
-require_relative "batch_scope"
+require_relative "models/department"
+require_relative "models/employee"
